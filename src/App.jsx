@@ -67,9 +67,7 @@ function App() {
 					</div>
 					<Button type='submit'>Submit</Button>
 				</form>
-				<Button className='my-5 mx-auto bg-fuchsia-600 shadow-2xl shadow-slate-500 hover:bg-red-600'>
-					Boton GoD
-				</Button>
+
 				<DarkThemeToggle />
 			</Flowbite>
 		</>
