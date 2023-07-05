@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+9f844fc4f77bb77bd5446f6e35e1103d745144ba refs/heads/dev/dario
+2eb79d65ff41fbb29559d0bb9645591118978a3c refs/heads/development
+8cfc0bbb55f3261eb553ba246b54d114518d2e8a refs/heads/main
+b8da44193de819c04c5fe1130054175c0be09e3e refs/heads/master
