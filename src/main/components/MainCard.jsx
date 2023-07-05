@@ -2,7 +2,11 @@ import { RatingCard } from './RatingCard';
 
 export const MainCard = ({ className }) => {
 	return (
-		<div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+		<div
+			className={
+				'max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ' +
+				className
+			}>
 			<a href='#'>
 				<img
 					className='rounded-t-lg h-40 w-full object-cover object-center'

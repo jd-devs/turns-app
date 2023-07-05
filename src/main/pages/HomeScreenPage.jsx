@@ -22,6 +22,9 @@ export const HomeScreenPage = () => {
 						<h2 className='text-3xl font-bold tracking-tighter'>Recomendado</h2>
 						<MainCarousel />
 					</section>
+					<section>
+						
+					</section>
 				</main>
 			</div>
 		</Flowbite>

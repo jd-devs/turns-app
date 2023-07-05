@@ -16,7 +16,11 @@ export const MainCarousel = () => {
 			<h2>Carousel</h2>
 			<div>
 				<Slider {...settings}>
-					<MainCard className={'mx-5 my-3 object-cover'} />
+					<MainCard className={'mx-3 my-3 object-cover'} />
+					<MainCard className={'mx-3 my-3 object-cover'} />
+					<MainCard className={'mx-3 my-3 object-cover'} />
+					<MainCard className={'mx-3 my-3 object-cover'} />
+					<MainCard className={'mx-3 my-3 object-cover'} />
 				</Slider>
 			</div>
 		</div>
