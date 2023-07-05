@@ -1,9 +1,13 @@
+
+
 import { MainSearch } from '../components/MainSearch';
+
+
 
 export const HomeScreenPage = () => {
 	return (
 		<div className='lg:container mx-auto px-4'>
-			<header>Aca el nav</header>
+			<header> NAVBAR</header>
 			<main>
 				<section className='h-96 grid place-content-center '>
 					<h1 className='text-5xl font-bold text-center tracking-tighter'>

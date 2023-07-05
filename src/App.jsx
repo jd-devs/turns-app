@@ -1,4 +1,5 @@
-import { HomeScreenPage } from './home/pages/HomeScreenPage';
+import { HomeScreenPage } from "./main/pages/HomeScreenPage";
+
 
 function App() {
 	return (
