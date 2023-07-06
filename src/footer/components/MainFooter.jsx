@@ -11,8 +11,8 @@ import { Footer } from 'flowbite-react';
 export const MainFooter = () => {
 	return (
 		<Footer container>
-			<div className='w-full lg:container mx-auto'>
-				<div className='grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1'>
+			<div className='w-full '>
+				<div className='grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1 lg:container mx-auto'>
 					<div>
 						<Footer.Brand
 							alt='Flowbite Logo'
@@ -46,14 +46,9 @@ export const MainFooter = () => {
 					</div>
 				</div>
 				<Footer.Divider />
-				<div className='w-full sm:flex sm:items-center sm:justify-between'>
+				<div className='w-full sm:flex sm:items-center sm:justify-between lg:container mx-auto'>
 					<Footer.Copyright by='Flowbite™' href='#' year={2022} />
 					<div className='mt-4 flex space-x-6 sm:mt-0 sm:justify-center'>
-						{/* <Footer.Icon href='#' icon={BsFacebook} />
-						<Footer.Icon href='#' icon={BsInstagram} />
-						<Footer.Icon href='#' icon={BsTwitter} />
-						<Footer.Icon href='#' icon={BsGithub} />
-						<Footer.Icon href='#' icon={BsDribbble} /> */}
 						<FontAwesomeIcon icon={faFacebook} />
 						<FontAwesomeIcon icon={faInstagram} />
 						<FontAwesomeIcon icon={faTwitter} />
