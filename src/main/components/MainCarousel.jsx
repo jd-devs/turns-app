@@ -13,7 +13,6 @@ export const MainCarousel = () => {
 	};
 	return (
 		<div>
-			<h2>Carousel</h2>
 			<div>
 				<Slider {...settings}>
 					<MainCard className={'mx-3 my-3 object-cover'} />
