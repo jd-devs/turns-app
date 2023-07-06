@@ -1,3 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+	faFacebook,
+	faGithub,
+	faInstagram,
+	faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
+
 import { Footer } from 'flowbite-react';
 
 export const MainFooter = () => {
@@ -46,6 +54,10 @@ export const MainFooter = () => {
 						<Footer.Icon href='#' icon={BsTwitter} />
 						<Footer.Icon href='#' icon={BsGithub} />
 						<Footer.Icon href='#' icon={BsDribbble} /> */}
+						<FontAwesomeIcon icon={faFacebook} />
+						<FontAwesomeIcon icon={faInstagram} />
+						<FontAwesomeIcon icon={faTwitter} />
+						<FontAwesomeIcon icon={faGithub} />
 					</div>
 				</div>
 			</div>
