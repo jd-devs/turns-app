@@ -11,7 +11,7 @@ import { Footer } from 'flowbite-react';
 export const MainFooter = () => {
 	return (
 		<Footer container>
-			<div className='w-full'>
+			<div className='w-full lg:container mx-auto'>
 				<div className='grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1'>
 					<div>
 						<Footer.Brand
