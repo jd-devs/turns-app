@@ -1,7 +1,27 @@
-import React from 'react'
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { MainCard } from './MainCard';
 
 export const MainCarousel = () => {
-  return (
-    <div>MainCarousel</div>
-  )
-}
+	const settings = {
+		dots: true,
+		infinite: false,
+		speed: 500,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+	};
+	return (
+		<div>
+			<div>
+				<Slider {...settings}>
+					<MainCard className={'mx-3 my-3 object-cover'} />
+					<MainCard className={'mx-3 my-3 object-cover'} />
+					<MainCard className={'mx-3 my-3 object-cover'} />
+					<MainCard className={'mx-3 my-3 object-cover'} />
+					<MainCard className={'mx-3 my-3 object-cover'} />
+				</Slider>
+			</div>
+		</div>
+	);
+};
