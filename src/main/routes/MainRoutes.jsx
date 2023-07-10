@@ -6,6 +6,7 @@ import { TurnsReservationPage } from '../pages/TurnsReservationPage';
 import { HomeScreenPage } from '../pages/HomeScreenPage';
 import { Flowbite } from 'flowbite-react';
 import { MainFooter } from '../../footer/components/MainFooter';
+import { DetailPage } from '../pages/DetailPage';
 
 export const MainRoutes = () => {
 	return (
@@ -17,6 +18,7 @@ export const MainRoutes = () => {
 				<div className='lg:container mx-auto px-4'>
 					<Routes>
 						<Route path='/dashadmin' element={<DashBoardAdminPage />} />
+						<Route path='/publications/:id' element={<DetailPage />} />
 						<Route path='/dashuser' element={<DashBoardUserPage />} />
 						<Route path='/turns' element={<TurnsReservationPage />} />
 						<Route path='/' element={<HomeScreenPage />} />

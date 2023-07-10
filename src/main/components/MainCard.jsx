@@ -10,7 +10,7 @@ export const MainCard = ({ className, card }) => {
 				'max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ' +
 				className
 			}>
-			<Link to={`/${id}`}>
+			<Link to={`/publications/${id}`}>
 				<img
 					className='rounded-t-lg h-40 w-full object-cover object-center'
 					src={pictures[0]}
