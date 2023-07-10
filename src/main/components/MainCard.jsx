@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { RatingCard } from './RatingCard';
 
 export const MainCard = ({ className }) => {
@@ -26,7 +27,7 @@ export const MainCard = ({ className }) => {
 				</p>
 				<div className='mb-1 font-normal text-gray-700 dark:text-gray-400'>
 					<span className='border-slate-700 border px-3 py-1 my-auto'>
-						Barberias
+						<Link to="/login">Reserva ya</Link>
 					</span>
 				</div>
 			</div>

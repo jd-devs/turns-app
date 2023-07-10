@@ -1,10 +1,12 @@
-import { HomeScreenPage } from "./main/pages/HomeScreenPage";
+import { AppRouter } from "./router/AppRouter";
+
 
 
 function App() {
 	return (
 		<>
-			<HomeScreenPage />
+			<AppRouter />
+
 		</>
 	);
 }
