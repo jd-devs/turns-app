@@ -1,36 +1,42 @@
 import { Link } from 'react-router-dom';
 import { RatingCard } from './RatingCard';
 
-export const MainCard = ({ className }) => {
+export const MainCard = ({ className, card }) => {
+	const { id, title, pictures, category, location, reviews_count, rating } =
+		card;
 	return (
 		<div
 			className={
 				'max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ' +
 				className
 			}>
-			<a href='#'>
+			<Link to={`/${id}`}>
 				<img
 					className='rounded-t-lg h-40 w-full object-cover object-center'
-					src='https://source.unsplash.com/random/?city,night'
+					src={pictures[0]}
 					alt=''
 				/>
-			</a>
-			<div className='px-5 pt-3 pb-2'>
-				<a href='#'>
+
+				<div className='px-5 pt-3 pb-2'>
 					<h5 className='mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-						Barberia London
+						{title}
 					</h5>
-				</a>
-				<RatingCard className='mb-1' />
-				<p className='mb-4 font-normal text-gray-700 dark:text-gray-400'>
-					Tucumán, Capital
-				</p>
-				<div className='mb-1 font-normal text-gray-700 dark:text-gray-400'>
-					<span className='border-slate-700 border px-3 py-1 my-auto'>
-						<Link to="/login">Reserva ya</Link>
-					</span>
+
+					<RatingCard
+						className='mb-1'
+						rating={rating}
+						reviews_count={reviews_count}
+					/>
+					<p className='mb-4 font-normal text-gray-700 dark:text-gray-400'>
+						{location}
+					</p>
+					<div className='mb-1 font-normal text-gray-700 dark:text-gray-400'>
+						<span className='border-slate-700 border px-3 py-1 my-auto'>
+							{category}
+						</span>
+					</div>
 				</div>
-			</div>
+			</Link>
 		</div>
 	);
 };
