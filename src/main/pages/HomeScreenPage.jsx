@@ -1,16 +1,14 @@
 import { Flowbite } from 'flowbite-react';
 import { MainCarousel } from '../components/MainCarousel';
 import { MainSearch } from '../components/MainSearch';
-import { MainNavbar } from '../../nav/components/MainNavbar';
+
 import { FeatureSection } from '../components/FeatureSection';
 import { MainFooter } from '../../footer/components/MainFooter';
 
 export const HomeScreenPage = () => {
 	return (
 		<Flowbite>
-			<header>
-				<MainNavbar />
-			</header>
+
 			<div className='lg:container mx-auto px-4'>
 				<main>
 					<section className='h-96 grid place-content-center '>
