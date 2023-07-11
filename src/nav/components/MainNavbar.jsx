@@ -2,8 +2,6 @@ import { DarkThemeToggle, Navbar } from 'flowbite-react';
 import { UserDropdown } from './UserDropdown';
 import { Link } from 'react-router-dom';
 
-
-
 export const MainNavbar = () => {
 	return (
 		<div>
@@ -25,17 +23,17 @@ export const MainNavbar = () => {
 					<Navbar.Toggle />
 				</div>
 				<Navbar.Collapse>
-					<Navbar.Link active >
-						<Link to="/">Home</Link>
+					<Navbar.Link as={Link} to='/' active>
+						Home
 					</Navbar.Link>
-					<Navbar.Link >
-						<Link to="/">Services</Link>
+					<Navbar.Link as={Link} to='/'>
+						Services
 					</Navbar.Link>
-					<Navbar.Link >
-						<Link to="/">Pricing</Link>
+					<Navbar.Link as={Link} to='/'>
+						Pricing
 					</Navbar.Link>
-					<Navbar.Link >
-						<Link to="/">Contact</Link>
+					<Navbar.Link as={Link} to='/'>
+						Contact
 					</Navbar.Link>
 				</Navbar.Collapse>
 			</Navbar>
