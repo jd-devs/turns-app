@@ -6,7 +6,7 @@ import { TurnsReservationPage } from '../pages/TurnsReservationPage';
 import { HomeScreenPage } from '../pages/HomeScreenPage';
 import { Flowbite } from 'flowbite-react';
 import { MainFooter } from '../../footer/components/MainFooter';
-import { DetailPage } from '../pages/DetailPage';
+import { DetailPage } from '../../detail/pages/DetailPage';
 
 export const MainRoutes = () => {
 	return (

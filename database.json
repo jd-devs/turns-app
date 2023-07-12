@@ -2,7 +2,7 @@
 	"publications": [
 		{
 			"id": 1,
-			"title": "Rev",
+			"title": "Decadence Hair & Beauty",
 			"pictures": [
 				"https://source.unsplash.com/random/?barber",
 				"https://source.unsplash.com/random/?hair",
@@ -16,15 +16,36 @@
 			"category": "finance",
 			"rating": 3.45,
 			"reviews_count": 55,
-			"atention_shedule": {
-				"monday": ["9:00 AM", "6:00 PM"],
-				"tuesday": ["9:00 AM", "6:00 PM"],
-				"wednesday": ["9:00 AM", "6:00 PM"],
-				"thursday": ["9:00 AM", "6:00 PM"],
-				"friday": ["9:00 AM", "6:00 PM"],
-				"saturday": ["10:00 AM", "4:00 PM"],
-				"sunday": ["Closed", "Closed"]
-			}
+			"attention_schedule": [
+				{
+					"day": "monday",
+					"hours": "9:00 - 18:00"
+				},
+				{
+					"day": "tuesday",
+					"hours": "9:00 - 18:00"
+				},
+				{
+					"day": "wednesday",
+					"hours": "0:30 - 4:00"
+				},
+				{
+					"day": "thursday",
+					"hours": "9:00 - 18:00"
+				},
+				{
+					"day": "friday",
+					"hours": "9:00 - 18:00"
+				},
+				{
+					"day": "saturday",
+					"hours": "10:00 - 16:00"
+				},
+				{
+					"day": "sunday",
+					"hours": "Closed"
+				}
+			]
 		}
 	],
 	"comments": [
